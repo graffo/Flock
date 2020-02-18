@@ -1,0 +1,155 @@
+/* Variáveis */ 
+:root {
+    --bold: "San Francisco Display Bold"
+}
+/* Fontes */ 
+@font-face {
+font-family: "San Francisco Display Ultralight";
+font-style: normal;
+font-weight: 400;
+src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.svg#San Francisco Display Ultralight") format("svg")
+}
+
+@font-face {
+font-family: "San Francisco Display Thin";
+font-style: normal;
+font-weight: 400;
+src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.svg#San Francisco Display Thin") format("svg")
+}
+
+@font-face {
+font-family: "San Francisco Display Medium";
+font-style: normal;
+font-weight: 400;
+src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.svg#San Francisco Display Medium") format("svg")
+}
+
+@font-face {
+font-family: "San Francisco Display Semibold";
+font-style: normal;
+font-weight: 400;
+src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.svg#San Francisco Display Semibold") format("svg")
+}
+
+@font-face {
+font-family: "San Francisco Display Bold";
+font-style: normal;
+font-weight: 400;
+src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.svg#San Francisco Display Bold") format("svg")
+}
+
+/* Reset */ 
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "San Francisco Display Medium";
+}
+.mt-150{
+    margin-top: 100px;
+}
+/* Header */ 
+header{
+    background: url('/images/header.png') no-repeat center bottom;
+    background-size: cover;
+    padding: 50px 0 0 0;
+    color: white;
+}
+header h1{
+    background: url('/images/logo.png') no-repeat;
+    text-indent: -99999em;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    height: 68px;
+    width: 68px;
+    border-radius: 13px;
+}
+nav a{
+    line-height: 53px;
+    color: white;
+}
+.download{
+    background: #0DF8C8;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    text-align: center;
+    padding: 15px 25px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.fone{
+    background: url('../images/telefone.png') no-repeat center right;
+    height: 758px;
+}
+.visa{
+    background: url('../images/Visa-Card.png') no-repeat;
+    width: 331px;
+    height: 196px;
+    display: inline-block;
+    border: none;
+    margin-top:63%;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    border-radius: 12px;
+}
+#banner-carrossel{
+    position: relative;
+    top: 30%;
+}
+#banner-carrossel h2{
+    font-family: var(--bold);
+    font-size: 4em !important ;
+}
+#banner-carrossel span{
+    color: #0B4F7A;
+}
+.carousel-indicators{
+    top: 40%;
+    left: 95% ;
+    width: 15px;
+    display: block;
+    float: right;
+    margin: 0;
+}
+.carousel-indicators li{
+    background: url('../images/marker-inative.png') no-repeat;
+    height: 16px;
+    width: 16px;
+    display: block !important;
+    opacity: 1;
+    clear: both;
+    margin: 0 0 5px 0;
+    border: 0;
+}
+.carousel-indicators .active{
+    background-image: url('../images/marker-active.png');
+}
+.carousel-item{
+    width: 100%;
+}
+
+#to-content{
+    background: url('../images/Scroll-Down.png')  no-repeat;
+    width: 61px;
+    height: 65px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    border-radius: 40px;
+}
+
+.box{
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    border-radius: 20px;
+    width: 80%;
+}
