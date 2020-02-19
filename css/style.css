@@ -2,6 +2,7 @@
 :root {
     --bold: "San Francisco Display Bold";
     --semi: "San Francisco Display Semibold";
+    --medio: "San Francisco Display Medium";
     --azul: #1C80DF;
 }
 /* Fontes */ 
@@ -46,6 +47,8 @@ body, html{
     padding: 0;
     box-sizing: border-box;
     font-family: "San Francisco Display Medium";
+    font-size: 14px;
+    scroll-behavior: smooth;
 }
 .mt-150{
     margin-top: 100px;
@@ -60,9 +63,9 @@ header{
 header h1{
     background: url('/images/logo.png') no-repeat;
     text-indent: -99999em;
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
     height: 68px;
     width: 68px;
     border-radius: 13px;
@@ -74,9 +77,9 @@ nav a{
 .download{
     background: #0DF8C8;
     border-radius: 30px;
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
     text-align: center;
     padding: 15px 25px;
     line-height: 20px;
@@ -93,9 +96,9 @@ nav a{
     display: inline-block;
     border: none;
     margin-top:63%;
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
     border-radius: 12px;
 }
 #banner-carrossel{
@@ -104,7 +107,7 @@ nav a{
 }
 #banner-carrossel h2{
     font-family: var(--bold);
-    font-size: 4em !important ;
+    font-size: 5em !important ;
 }
 #banner-carrossel span{
     color: #0B4F7A;
@@ -142,9 +145,9 @@ nav a{
     position: absolute;
     left: 0;
     bottom: 150px;
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);  
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
     border-radius: 40px;
 }
 
@@ -164,9 +167,9 @@ nav a{
     border: 1px solid #f0f0f0;
 }
 .box:hover{
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21);
-    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.21); 
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
     filter: none;
     -webkit-filter: grayscale(0%);
     -moz-filter:    grayscale(0%);
@@ -198,4 +201,29 @@ nav a{
 }
 .box:hover .download{
     opacity: 1;
+}
+
+#qualidades{
+    background: url('../images/bg-content.png') no-repeat center top;
+    color: #909090;
+    padding: 250px 0 0 0;
+    margin-top: 250px;
+}
+.circulos{
+    margin: 0 auto;
+    width: 220px;
+    height: 220px;
+}
+#qualidades h3{
+    font-family: var(--bold);
+    font-size: 36px;
+    color: var(--azul);
+}
+#qualidades h3 span{
+    color: #141414;
+    clear: both;
+    font-family: var(--medio);
+}
+.right{
+    margin-top: 20px;
 }
