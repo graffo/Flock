@@ -42,13 +42,16 @@ src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/s
 }
 
 /* Reset */ 
+html{
+    scroll-behavior: smooth;
+}
 body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "San Francisco Display Medium";
     font-size: 14px;
-    scroll-behavior: smooth;
+    
 }
 .mt-150{
     margin-top: 100px;
@@ -206,7 +209,7 @@ nav a{
 #qualidades{
     background: url('../images/bg-content.png') no-repeat center top;
     color: #909090;
-    padding: 250px 0 0 0;
+    padding: 380px 0 380px 0;
     margin-top: 250px;
 }
 .circulos{
@@ -227,3 +230,198 @@ nav a{
 .right{
     margin-top: 20px;
 }
+.modern-design{
+    color: #fff;
+    padding: 500px 0;
+}
+.modern-design h3, .modern-design h3 span{
+    color: #fff !important;
+}
+
+#blog-rodape{
+    background: url('/images/bg-content-2.png') no-repeat center top;
+}
+.blog{
+    padding: 400px 0 300px 0;
+}
+.blog h2{
+    width: 100%;
+    text-align: center;
+    font-family: var(--semi);
+    font-size: 36px;
+    color: var(--azul);
+}
+.blog h3{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--medio);
+}
+.blog .post-home{
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    box-shadow: 0px 0px 15px 3px rgba(124,209,245,0.30);
+    padding: 40px;
+    background: #fff;
+    color: #B2B2B2;
+    border-radius: 20px;
+    width: 30%;
+    margin: 50px 19px;
+}
+.blog .post-home .cat{
+    background: rgb(124,209,245);
+    background: linear-gradient(223deg, rgba(124,209,245,1) 0%, rgba(28,128,223,1) 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 10px;
+    width: auto;
+    float: left;
+    color: #fff;
+    border-radius: 4px;
+    clear: both;
+    display: block;
+    margin-bottom: 15px;
+}
+.blog .post-home h4{
+    color: #000;
+    float: left;
+    font-size: 18px;
+}
+.blog .post-home .autor{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.blog .post-home .autor .nome{
+    font-size: 12px;
+    color: #000;
+    margin-top: 2px;
+}
+.blog .post-home .autor .data{
+    font-size: 10px;
+    color: #B2B2B2;
+}
+footer{
+    padding: 50px 0 100px 0;
+    align-content: center;
+    text-align: center;
+}
+footer h3{
+    background: url('../images/get_in.png') no-repeat center bottom;
+    padding: 15px 0 50px 0;
+    color: #fff;
+    font-family: var(--bold);
+    font-size: 38px;
+
+}
+footer .formulario{
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 14px;
+    color: #141414;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: var(--semi);
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.15);
+}
+#name,#email{
+    max-width: 49%;
+    border: 1px solid #E2E2ED;
+    padding: 25px 15px;
+    float: left;
+}
+#email{
+    max-width: 50% !important;
+    border-right: none;
+}
+#subject{
+    width: 100%;
+    border: 1px solid #E2E2ED;
+    padding: 25px 15px;
+}
+#message{
+    width: 100%;
+    border: none;
+    padding: 25px 15px;
+    min-height: 150px;
+    border: 1px solid #E2E2ED;
+}
+footer button{
+    margin: 15px auto;
+    background: #0DF8C8;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.15);
+    padding: 10px 60px;
+    font-size: 18px;
+    border: none;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 780px) {
+    body{
+        overflow-x: hidden;
+    }
+    #qualidades{
+        margin-top: 50px;
+        padding: 150px 0;
+    }
+    .modern-design{
+        padding: 150px 0;
+    }
+    .fone{
+        background-size: contain;
+        background-position: top center;
+    }
+    .save-time .right img{
+        width: 100%;
+    }
+    .post-home{
+        width:60% !important;
+        margin: 10px auto !important;
+    }
+    .blog{
+        padding: 150px 0 100px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .banner_m{
+        margin: 40px auto 0 auto;
+    }
+    .banner_m .carousel-item{
+        font-size: 12px !important;
+    }
+    .mt-150{
+        margin-top: 20px;
+    }
+    .box{
+        margin-bottom: 15px;
+    }
+    #qualidades{
+        padding-top: 150px;
+        padding-bottom: 30px;    
+    }
+    .d-sm-none{
+        display: none;
+    }
+    .modern-design{
+        padding: 280px 0;
+    }
+    .save-time{
+        padding: 120px 0;
+    }
+    .mv img, .cfl img{
+        width: 100%;
+    }
+    .post-home{
+        width: 90% !important;
+        padding: 30px !important;
+    }
+    .d-sm-block{
+        display: block !important;
+    }
+  }
